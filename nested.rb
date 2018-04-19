@@ -146,7 +146,3 @@ def adding_to_dennis
 		 programmer_hash[:dennis_ritchie][:languages][1] = "Assembly"
 		 programmer_hash
 end
-
-=begin
-rspec ./spec/nested_spec.rb:37 # nested hash #adding_to_dennis operates on the programmer_hash and adds 'Assembly' to Dennis Ritchie's languages, returning the newly-added-to-hash
-=end
